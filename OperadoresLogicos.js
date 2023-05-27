@@ -1,0 +1,3 @@
+function MayorYMenor(numero) {
+
+}
