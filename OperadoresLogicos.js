@@ -15,8 +15,18 @@
 //operadorOr('a')
 
 //Operador not
-function negacion(permiso) {
-    if (!permiso) console.log('Tiene permiso')
+//function negacion(permiso) {
+//  if (!permiso) console.log('Tiene permiso')
+//}
+//negacion(true)
+//negacion(false)
+
+//MEZCLA DE LOS TRES:
+function condicionCompleja(num) {
+    if (num > 9 && num % 2 === 0 || num === 3) console.log(true);
+    else console.log(false);
 }
-negacion(true)
-negacion(false)
+condicionCompleja(10)
+condicionCompleja(6)
+condicionCompleja(3)
+condicionCompleja(5)
