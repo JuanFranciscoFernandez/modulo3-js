@@ -38,4 +38,4 @@ num > 9 && num % 2 === 0 || num === 3
 */
 
 
-var PutoElQueLoLee = 'jajaja'
+var PutoElQueLoLee = 'jaaja'
