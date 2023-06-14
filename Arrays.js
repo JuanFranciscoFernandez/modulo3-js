@@ -27,3 +27,4 @@ for (var i = 0; i < nombres.length; ++1) {
 for (var nombre of nombres) {
     console.log(nombre);
 }
+//ta dificil
