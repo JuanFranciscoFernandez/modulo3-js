@@ -4,10 +4,11 @@ function todosIguales(array) {
     // Tu código:
  
  
-    var mayoracien = []
-
-    for (var i = 0; i < array.length; i++) {
-       if (array[i] > 100) mayoracien.push(array[i])
-    }
- 
-    return mayoracienn
+    let valores = [];
+   var suma = num
+   for (var i = 0; i < 10; i++) {
+      suma += 2; if (suma === i) { break; } else { valores.push(suma) }; //en este caso no hace faltan los [] para .push
+   }
+   if (valores.length < 10) { return "Se interrumpió la ejecución" }
+   else if (valores.length === 10) { return valores }
+//aa
