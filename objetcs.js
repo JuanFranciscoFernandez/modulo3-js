@@ -60,3 +60,5 @@ var mascota = {
  };
  //dfws
  let objeto 
+
+ let objetousuario =flo
