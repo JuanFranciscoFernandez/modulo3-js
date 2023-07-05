@@ -11,7 +11,7 @@ class Animal2 {
 let cucaracha = new Animal2('eureka', 10, 'marron caca')
 
 
-//::::::P r o t o t i p o s ::::::::::::
+//::::::P r o t o t i p o s ::::::::ls:::
 
 Animal2.prototype.caga = function () {
     console.log(this.nombre + " " + 'caga y se tira muchos pedoss puuuuuhchh')
