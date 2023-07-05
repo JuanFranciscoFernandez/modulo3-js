@@ -1,19 +1,23 @@
-class Animal2 {
-    constructor(nombre, edad, color) {
+class Persona {
+    constructor(nombre, edad) {
         this.nombre = nombre;
         this.edad = edad;
-        this.color = color;
     }
-    // //duerme = function () {
-    //     console.log("Hola mi nombre es" + ' ' + this.nombre + " " + "y" + " " + "tengo" + ' ' + this.edad + " " + "anios")
-    // }
+
 }
-let cucaracha = new Animal2('eureka', 10, 'marron caca')
 
+let persona1 = new Persona('Cachilo', 27);
 
-//::::::P r o t o t i p o s ::::::::ls:::
+let persona2 = new Persona('Jorgita, alias la orejuda', 65)
 
-Animal2.prototype.caga = function () {
-    console.log(this.nombre + " " + 'caga y se tira muchos pedoss puuuuuhchh')
+Persona.prototype.saludar = function () {
+    console.log('Hola, mi nombre es ', this.nombre, 'tengo ', this.edad, 'años')
 }
-cucaracha.caga()
+Persona.prototype.diceputeadas = function () {
+    console.log('Que miras bobo? ', 'anda pa alla')
+}
+
+persona1.saludar()
+persona2.saludar()
+persona1.diceputeadas()
+

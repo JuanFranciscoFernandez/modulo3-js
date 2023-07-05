@@ -26,18 +26,27 @@ class Animal2 {
         this.nombre = nombre;
         this.edad = edad;
         this.color = color;
-    }
+    }//Metodo
     duerme = function () {
         console.log("cagando")
     }
 }
-
 var cucaracha = new Animal2("eureka", 10, "marron")
-
 
 //::::::P r o t o t i p o s ::::::::::::
 //se colocan por afuera, a lo ultimo de todo
 
-Animal2.prototype.caga = function(){
+Animal2.prototype.caga = function () {
     console.log('pufff cagando')
+}
+
+//Extencion de clases
+class Persona {
+    constructor(nombre, edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+    saludar(){
+        console.log('Hola, mi nombre es ', this.nombre,'tengo ',this.edad, 'años')
+    }
 }
