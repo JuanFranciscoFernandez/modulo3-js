@@ -57,13 +57,13 @@ class Programador extends Persona {
     }
     codear() {
         console.log('Soy ' + this.nombre + ' . Codeo desde hace ' + this.aniosDeExperiencia + ' anios.')
-
     }
 
 }
 
 
-var martin = new Persona('martin', 26);
-var programador = new Persona('maria', 37, 4);
-martin.saludar()
-programador.codear()
+var martin = new Persona('GUADA', 26);
+var programador = new Programador('julian', 37, 4);
+martin.saludar();
+programador.codear();
+programador.saludar()
