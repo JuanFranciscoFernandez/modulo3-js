@@ -46,7 +46,24 @@ class Persona {
         this.nombre = nombre;
         this.edad = edad;
     }
-    saludar(){
-        console.log('Hola, mi nombre es ', this.nombre,'tengo ',this.edad, 'años')
+    saludar() {
+        console.log('Hola, mi nombre es ' + this.nombre + '. tengo ' + this.edad);
     }
 }
+class Programador extends Persona {
+    constructor(nombre, edad, aniosDeExperiencia) {
+        super(nombre, edad);
+        this.aniosDeExperiencia = aniosDeExperiencia;
+    }
+    codear() {
+        console.log('Soy ' + this.nombre + ' . Codeo desde hace ' + this.aniosDeExperiencia + ' anios.')
+
+    }
+
+}
+
+
+var martin = new Persona('martin', 26);
+var programador = new Persona('maria', 37, 4);
+martin.saludar()
+programador.codear()
