@@ -65,4 +65,37 @@
 
 
 // encuentraNumMayor(array, num);
-debugger
+// function deObjetoAarray(objeto) {
+// Recibes un objeto. Tendrás que crear un arreglo de arreglos.
+// Cada elemento del arreglo padre será un nuevo arreglo que contendrá dos elementos.
+// Estos elementos debe ser cada par clave:valor del objeto recibido.
+// [EJEMPLO]: {D: 1, B: 2, C: 3} ---> [['D', 1], ['B', 2], ['C', 3]].
+// Tu código:
+
+//https://www.youtube.com/watch?v=VX-AyFo4yHE&ab_channel=Desarrollo%C3%9Atil
+
+//     let array = Object.entries(objeto);
+//     console.log(array);
+
+// }
+// let ejempo = { puto: 'chele', cachilo: 'futuroProProgramador' }
+
+// deObjetoAarray(ejempo);
+
+
+
+
+function deObjetoAarray(objeto) {
+    // Recibes un objeto. Tendrás que crear un arreglo de arreglos.
+    // Cada elemento del arreglo padre será un nuevo arreglo que contendrá dos elementos.
+    // Estos elementos debe ser cada par clave:valor del objeto recibido.
+    // [EJEMPLO]: {D: 1, B: 2, C: 3} ---> [['D', 1], ['B', 2], ['C', 3]].
+    // Tu código:
+
+    let array = [];
+    for (key in objeto) {
+        array.push([key + ' , ' + objeto[key]])
+    }
+    console.log(array)
+}
+deObjetoAarray(cachilo = { nombre: 'putro', pito: 3 })
