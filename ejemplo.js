@@ -85,17 +85,16 @@
 
 
 
-function deObjetoAarray(objeto) {
-    // Recibes un objeto. Tendrás que crear un arreglo de arreglos.
-    // Cada elemento del arreglo padre será un nuevo arreglo que contendrá dos elementos.
-    // Estos elementos debe ser cada par clave:valor del objeto recibido.
-    // [EJEMPLO]: {D: 1, B: 2, C: 3} ---> [['D', 1], ['B', 2], ['C', 3]].
-    // Tu código:
+function asAmirror(frase) {
+  // Recibes una frase. Tu tarea es retornar un nuevo string en el que el orden de las palabras sea el mismo.
+  // La diferencia es que cada palabra estará escrita al inverso.
+  // [EJEMPLO]: "The Henry Challenge is close!"  ---> "ehT yrneH egnellahC si !esolc"
+  // Tu código:
 
-    let array = [];
-    for (key in objeto) {
-        array.push([key + ' , ' + objeto[key]])
-    }
-    console.log(array)
+  let array = frase.split(' ')
+  let arrayinvertido = array.split('')
+
+
+  console.log(arrayinvertido)
 }
-deObjetoAarray(cachilo = { nombre: 'putro', pito: 3 })
+asAmirror('estoy')
