@@ -85,16 +85,18 @@
 
 
 
-function asAmirror(frase) {
-  // Recibes una frase. Tu tarea es retornar un nuevo string en el que el orden de las palabras sea el mismo.
-  // La diferencia es que cada palabra estará escrita al inverso.
-  // [EJEMPLO]: "The Henry Challenge is close!"  ---> "ehT yrneH egnellahC si !esolc"
-  // Tu código:
+function sortArray(arrayOfStrings) {
+   // Recibes un arreglo de strings.
+   // Debe retornar un nuevo arreglo, pero con las palabras ordenadas en orden creciente a partir
+   // de la longitud de cada string.
+   // [EJEMPLO]: ["You", "are", "beautiful", "looking"]  ---> [“You", "are", "looking", "beautiful"]
+   // Tu código:
+   let arrayordenado = arrayOfStrings.sort(length)
+  
+   console.log(arrayordenado)
 
-  let array = frase.split(' ')
-  let arrayinvertido = array.split('')
 
-
-  console.log(arrayinvertido)
 }
-asAmirror('estoy')
+
+
+sortArray(["You", "are", "beautiful", "looking"])
