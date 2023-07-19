@@ -85,25 +85,40 @@
 
 
 
-function buscoInterseccion(array1, array2) {
-   // Recibes dos arreglos de números.
-   // Debes retornar un nuevo arreglo en el que se guarden los elementos en común entre ambos arreglos.
-   // [EJEMPLO]: [4,2,3] U [1,3,4] = [3,4].
-   // Si no tienen elementos en común, retornar un arreglo vacío.
-   // [PISTA]: los arreglos no necesariamente tienen la misma longitud.
-   // Tu código:
-   let enComun = array1.filter(element => array2.includes(element));
-   console.log(enComun);
-   // Creamos una caja nueva llamada enComun. Esta caja estará vacía al principio, pero la usaremos para guardar los números que están en ambas cajas.
+// function buscoInterseccion(array1, array2) {
+//    // Recibes dos arreglos de números.
+//    // Debes retornar un nuevo arreglo en el que se guarden los elementos en común entre ambos arreglos.
+//    // [EJEMPLO]: [4,2,3] U [1,3,4] = [3,4].
+//    // Si no tienen elementos en común, retornar un arreglo vacío.
+//    // [PISTA]: los arreglos no necesariamente tienen la misma longitud.
+//    // Tu código:
+//    let enComun = array1.filter(element => array2.includes(element));
+//    console.log(enComun);
+//    // Creamos una caja nueva llamada enComun. Esta caja estará vacía al principio, pero la usaremos para guardar los números que están en ambas cajas.
 
-   // Ahora vamos a revisar cada número en la primera caja (array1). Para hacer esto, usamos una herramienta especial llamada filter(). Esta herramienta revisa cada número y decide si lo queremos o no.
-   
-   // Para tomar una decisión sobre cada número, usamos una pequeña máquina. Esta máquina mira cada número y pregunta: "¿Está este número también en la otra caja (array2)?".
-   
-   // Para responder a esa pregunta, utilizamos otra herramienta llamada includes(). Esta herramienta nos ayuda a buscar el número en la otra caja. Si el número está en la caja, la respuesta es "sí". Si no está, la respuesta es "no".
-   
-   // Si la respuesta de la máquina es "sí", significa que el número está en ambas cajas. Entonces, lo tomamos y lo ponemos en nuestra caja enComun.
-   
-   // Repetimos este proceso para cada número en la primera caja (array1).
+//    // Ahora vamos a revisar cada número en la primera caja (array1). Para hacer esto, usamos una herramienta especial llamada filter(). Esta herramienta revisa cada número y decide si lo queremos o no.
+
+//    // Para tomar una decisión sobre cada número, usamos una pequeña máquina. Esta máquina mira cada número y pregunta: "¿Está este número también en la otra caja (array2)?".
+
+//    // Para responder a esa pregunta, utilizamos otra herramienta llamada includes(). Esta herramienta nos ayuda a buscar el número en la otra caja. Si el número está en la caja, la respuesta es "sí". Si no está, la respuesta es "no".
+
+//    // Si la respuesta de la máquina es "sí", significa que el número está en ambas cajas. Entonces, lo tomamos y lo ponemos en nuestra caja enComun.
+
+//    // Repetimos este proceso para cada número en la primera caja (array1).
+// }
+// buscoInterseccion([1, 4, 6], [4, 8, 7])
+
+
+
+
+
+function sortArray(arrayOfStrings) {
+   // Recibes un arreglo de strings.
+   // Debe retornar un nuevo arreglo, pero con las palabras ordenadas en orden creciente a partir
+   // de la longitud de cada string.
+   // [EJEMPLO]: ["You", "are", "beautiful", "looking"]  ---> [“You", "are", "looking", "beautiful"]
+
+   let nuevoarray = arrayOfStrings.sort((a, b) => a.length - b.length)
+   console.log(nuevoarray);
 }
-buscoInterseccion([1, 4, 6], [4, 8, 7])
+sortArray(['chilo', 'pronax', 'asd'])
