@@ -9,10 +9,24 @@
 
 <body>
     <h1>Mi Primer formulario</h1>
-    <form>
-        <p><label for="nombre">Nombre: <input type="nombretext" id="nombre"></label> </p>
-        <p> </p>
-        <p> </p>
+    <ul>
+        <li><a href="visits_activities.html"> Actividades</a> </li>
+        <li> <a href="accommodation.html"> Acomodaciones</a></li>
+        <li><a href="entertainment.html"> Entrenenimiento</a> </li>
+        <li><a href="index.html"> Volver a la pagina principal</a> </li>
+    </ul>
+
+
+    <form method="post" action="mailto:juanfraphelps@gmail.com">
+
+        <P><label for="nombre">Nombre: <input type="nombretext" id="nombre" name="nombre" required></label></P>
+
+        <P><label for="correo">Correo Electronico <input type="email" id="correo" name="Correo" required></label></P>
+
+        <P></P><label for="comentarios">Mensaje: <textarea name="Comentarios" id="comentarios" cols="30"
+                rows="10"></textarea></label></P>
+
+        <input type="submit">
 
 
 
