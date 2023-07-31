@@ -1,0 +1,18 @@
+h1 {
+    color: aquamarine;
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: blueviolet;
+}
+
+body {
+    background-color: #ec359a;
+
+}
+
+nav:hover {
+    background: red;
+    transition: all 2s;
+    border: 3px solid blue;
+}
+ssd
