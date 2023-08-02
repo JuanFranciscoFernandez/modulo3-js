@@ -8,11 +8,12 @@
 }
 
 body {
-    background-color: #ec359a;
+    background-color: #a51363;
 
 }
 
 .navhover:hover {
+    color: blue;
     background: red;
     transition: all 2s;
     border: 3px solid blue;
@@ -20,6 +21,7 @@ body {
 
 table {
     font-weight: bold;
+    color: blue;
     font-size: 24px;
     font-family: 'Special Elite', cursive;
     height: 100%;
@@ -29,9 +31,28 @@ table {
     background: salmon;
 }
 
-nav:not(.navhover) {
+
+nav a:not(.navhover) {
+    font-size: 20px;
+    color: rgb(8, 239, 58);
     height: 40px;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 114, 152);
+    text-align: center;
+    border-style: dotted;
+    list-style-type: none;
+}
 
-
+ul a:not(.navhover1) {
+    display: flex;
+    align-items: center;
+    border: 1px solid #2907e5;
+    height: auto;
+    width: 100%;
+    margin: 20px;
+    padding: 0;
+    background-color: chocolate;
+    list-style-type: none;
 }
