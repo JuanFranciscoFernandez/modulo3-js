@@ -56,3 +56,18 @@ ul a:not(.navhover1) {
     background-color: chocolate;
     list-style-type: none;
 }
+
+img {
+    height: auto;
+    width: 60%;
+    margin: 20px;
+    padding: 0;
+    border-style: groove;
+}
+
+li {
+    height:  auto;
+    width: 100%;
+    margin:0;
+    padding:  10px 20px;
+}
