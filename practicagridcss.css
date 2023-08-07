@@ -4,50 +4,52 @@ body {
 }
 
 .grid {
+    grid-template-areas: 'cabecera cabecera'
+        'menu menu'
+        'contenido lateral'
+        'footer footer';
+    height: 650px;
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    justify-content: stretch;
-
-
-
     width: 80%;
     margin: 0 auto;
     background-color: lightseagreen;
-
-    padding: 20px;
-    border: 3px solid black;
+    border: 4px solid black;
 
 
 }
 
 .caja {
-
-    border: 4px solid black;
-    background-color: lightgray;
-
+    border: 3px solid black;
+    background-color: rgb(240, 166, 166);
     text-align: center;
     line-height: 150px;
 }
 
 .c1 {
-    grid-column: 1/4;
+    grid-area: cabecera;
+
+
     background-color: aqua;
 }
 
-.c3 {
-    grid-column: 1/3;
-    background-color: chocolate;
+.c2 {
+    grid-area: menu;
+
+    background-color: blue;
+
 }
 
-.c10 {
-    grid-column: 1/5;
+.c3 {
+    grid-area: contenido;
+    background-color: cadetblue;
+}
+
+.c4 {
+    grid-area: lateral;
     background-color: chartreuse;
 }
-.c11{
-    grid-column: 1/3;
-}
-.c12{
-    grid-column: 3/5;
-    background-color: palevioletred
+
+.c5 {
+    grid-area: footer;
+    background-color: azure;
 }
