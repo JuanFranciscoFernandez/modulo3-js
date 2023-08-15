@@ -9,6 +9,9 @@ for (let i = 0; i < 5; i++) {
         console.log(suma);
     };
 
-    //asfdccfvc
-    var cachilo = 'cachilo'
-    do ch
+    function sortArray(arrayOfStrings) {
+   
+        let nuevoarray = arrayOfStrings.sort()
+        console.log (nuevoarray);
+     }
+     sortArray(['lacon','go','ajk'])
