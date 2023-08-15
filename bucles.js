@@ -8,3 +8,10 @@ for (let i = 0; i < 5; i++) {
     suma = suma + 1;
         console.log(suma);
     };
+
+    function sortArray(arrayOfStrings) {
+   
+        let nuevoarray = arrayOfStrings.sort()
+        console.log (nuevoarray);
+     }
+     sortArray(['lacon','gov','ajk'])
