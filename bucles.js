@@ -10,4 +10,4 @@ for (let i = 0; i < 5; i++) {
     };
 
     //asfdccfvc
-    varcachilo = 'cachilo'
+    var cachilo = 'cachilo'
