@@ -4,3 +4,5 @@ function sortArray(arrayOfStrings) {
     console.log (nuevoarray);
  }
  sortArray(['lacon','go','ajk'])
+
+ var cachilop = 3
