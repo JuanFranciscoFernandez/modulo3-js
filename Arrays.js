@@ -6,7 +6,7 @@ var nombres = []
 nombres[0] = "cachilo";
 nombres[6] = "adolfo";
 
-//Otra manera de llenar el array vacio
+//Otra manera de llenar el array vaciio
 var nombres = []
 nombres.push("cahilolandia")
 nombres.push("Josecito")
