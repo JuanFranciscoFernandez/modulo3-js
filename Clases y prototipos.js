@@ -1,6 +1,6 @@
 //clases
 
-// ;;;;;Estilo function:
+// ;;;;;Estilo functionn:
 
 let Animal = function (nombre, edad, color) {
     this.nombre = nombre;
@@ -40,7 +40,7 @@ Animal2.prototype.caga = function () {
     console.log('pufff cagando')
 }
 
-//Extencion de clases
+//Extencion de clasess
 class Persona {
     constructor(nombre, edad) {
         this.nombre = nombre;
