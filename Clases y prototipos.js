@@ -40,7 +40,7 @@ Animal2.prototype.caga = function () {
     console.log('pufff cagando')
 }
 
-//Extencion de clases
+//Extencion de clasees
 class Persona {
     constructor(nombre, edad) {
         this.nombre = nombre;
