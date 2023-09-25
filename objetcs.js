@@ -48,7 +48,7 @@ for (let prop in mundo) {
  }
 
 
- //THIS
+ //THISs
 var mascota = {
     animal: 'Perro',
     raza: 'Ovejero Alemán',
