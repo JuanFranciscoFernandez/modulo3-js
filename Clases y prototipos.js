@@ -33,7 +33,7 @@ class Animal2 {
 }
 var cucaracha = new Animal2("eureka", 10, "marron")
 
-//::::::P r o t o t i p o s ::::::::::::
+//::::::P r o t o t i p o ss ::::::::::::
 //se colocan por afueraa, a lo ultimo de todo
 
 Animal2.prototype.caga = function () {
