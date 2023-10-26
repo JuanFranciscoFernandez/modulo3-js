@@ -41,6 +41,8 @@ Animal2.prototype.caga = function () {
 }
 
 //Extencioon de clases
+//todo
+//! 
 class Persona {
     constructor(nombre, edad) {
         this.nombre = nombre;
