@@ -40,7 +40,7 @@ Animal2.prototype.caga = function () {
     console.log('pufff cagando')
 }
 
-//Extencioon de clases
+//Extencioon de clasess
 //todo
 //!!
 class Persona {
