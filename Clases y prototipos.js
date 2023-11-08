@@ -14,7 +14,7 @@ let Animal = function (nombre, edad, color) {
         console.log(this.nombre + ' ' + "se esta echando terrible cago " + "y despues se va a dormir" + ' ' + this.duerme)
     }
 }
-//;;;;;;;;;;;;;Nueva INSTANCIA
+//;;;;;;;;;;;;;Nueva INSTANCIAaa
 let pato = new Animal('cachilo', 25, 'violeta')
 pato.caga()
 
