@@ -1,6 +1,6 @@
 //clases
 
-// ;;;;;Estilo functionn:
+// ;;;;;Estiloo functionn:
 
 let Animal = function (nombre, edad, color) {
     this.nombre = nombre;
