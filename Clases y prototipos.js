@@ -20,7 +20,7 @@ pato.caga()
 
 
 
-//EstiloO class:
+//Estilo class:
 class Animal2 {
     constructor(nombre, edad, color) {
         this.nombre = nombre;
