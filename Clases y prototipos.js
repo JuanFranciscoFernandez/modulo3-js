@@ -31,7 +31,7 @@ class Animal2 {
         console.log("cagando")
     }
 }
-var cucaracha = new Animal2("eureka", 10, "marron")
+var cucarachoa = new Animal2("eureka", 10, "marron")
 
 //::::::P r o t o t i p o ss ::::::::::::
 //se colocan por afueraa, a lo ultimo dee todo
