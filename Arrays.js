@@ -94,7 +94,7 @@ var masUno = numeros.map( (num) => { return num + 1 } );
 console.log(masUno);
 */
 
-//buclEe while infinito
+//bucle while infinito
 var aar = []
 var n = 1;
 while (n < 3) {
