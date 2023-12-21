@@ -101,7 +101,7 @@ while (n < 3) {
     arr.push(math.random())
 }
 
-//buclee while finitoo
+//bucleeeee while finitoo
 // WHILE
 var arr = [];
 while (arr.length < 5) {
